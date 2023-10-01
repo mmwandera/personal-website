@@ -1,0 +1,214 @@
+/* From Figma: https://www.figma.com/file/bMqrsysA2GUzNzdq5k7Ez8/Portfolio-Website-Moringa?type=design&node-id=1%3A703&mode=design&t=fjjPdZMRSHy5AT9F-1 */
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+:root{
+    /* Color */
+    --color-primary:#002452;
+    --color-background:#FFFFFF;
+    --color-text:#000000;
+    --color-text-secondary:#868686;
+
+    /* Fonts */
+    --ff-body: "Space Grotesk", sans-serif;
+
+    /* Font weights */
+    --fw-regular: 400;
+    --fw-medium: 500;
+    
+}
+
+body{
+    font-family: var(--ff-body);
+    text-decoration: none;
+}
+
+h1,h2{
+    font-weight: var(--fw-medium);  
+}
+
+h3{
+    font-weight: var(--fw-regular);
+}
+
+ul{
+    list-style: none;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__menu{
+    margin-right: 92px;
+}
+
+.nav__list{
+    display: flex;
+    font-size: 16px;
+    padding-right: 92px;
+    margin-right: 92px;
+}
+
+main{
+    display: flex;
+    margin-left: 150px;
+    margin-right: 225px;
+    gap: 78px;
+    width: 990px;
+}
+
+.project-cards{
+    display: flex;
+    width: 1058px;
+    gap: 79px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+}
+
+.card-container{
+    width: 300px;
+}
+
+div article div img{
+    height: 300px;
+}
+
+section.section1 h2, section.section2 h2, footer.footer h2{
+    text-align: center;
+}
+
+section.section1 div p{
+    text-align: center;
+    width: 745px;
+    height: 92px;
+    text-align: center;
+    font-size: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+}
+
+.section1{
+    padding-top: 187px;
+}
+
+.section2{
+    padding-top: 100px;
+}
+
+.footer{
+    padding-top: 122px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contacts{
+    margin-top: 44px;
+    width: 308px;
+    height: 362px;
+    margin-left: 566px;
+    margin-right: 566px;
+    margin-bottom: 75px;
+    text-align: center;
+}
+
+main div+div img{
+    width: 427px;
+    height: 285px;
+    
+    margin-top: 158px;
+}
+
+.hero-content{
+    margin-left: 225px;
+    width: 585px;
+    height: 281px;
+    margin-top: 159px;
+}
+
+.hero-content p{
+    width: 485px;
+    height: 69px;
+}
+
+.hero-content h1{
+    font-size: 56px;
+    font-weight: var(--fw-medium);
+}
+
+.hero-content h3{
+    font-size: 16px;
+    color: var(--color-text-secondary);
+}
+
+
+header div nav a{
+    font-size: 20px;
+    margin-left: 80px;
+    color: var(--color-text);
+}
+
+.button{
+    padding: 13px 28px 13px 28px;
+    border: none;
+    outline: none;
+    font: inherit;
+    color: var(--color-background);
+    background: var(--color-primary);
+    cursor: pointer;
+        
+} 
+
+.footer-copyright{
+    text-align: center;
+    margin-top: 44px;
+    margin-bottom: 44px;
+    font-size: 14px;
+}
+
+hr{
+    width: 1274px;
+    height: 50%;
+    color: var(--color-primary);
+}
+
+i{
+    display: flex;
+    color: var(--color-primary);
+}
+
+.email{
+    padding-top: 52px;
+}
+
+.email p{
+    text-decoration: underline;
+    font-size: 20px;
+    color: var(--color-primary);
+}
+
+.phone-number{
+    padding-top: 52px;
+}
+
+.phone-number p{
+    text-decoration: underline;
+    font-size: 20px;
+    color: var(--color-primary);
+}
+
+.contact-me{
+    margin-left: 135px;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 18px;
+}
