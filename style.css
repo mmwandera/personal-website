@@ -162,7 +162,7 @@ header div nav a{
     color: var(--color-background);
     background: var(--color-primary);
     cursor: pointer;
-        
+    margin-top: 20px;    
 } 
 
 .footer-copyright{
